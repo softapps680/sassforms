@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body a, body .lbl {
+  font-size: small;
+  color: #483C32;
+  font-weight: 400;
+}
+
+body h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #483C32;
+}
+
+body h5 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+body .error {
+  font-size: 11px;
+  color: red;
+}
+
+body .correct {
+  font-size: 11px;
+  color: green;
+}
+
+#login {
+  background-color: #F3F2F2;
+  padding: 30px;
+  box-shadow: 5px 5px #cccccc;
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 150px;
+}
+
+#login .btn {
+  color: #000000;
+  border-color: #000000;
+}
+
+#login .btn:hover {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+#socmedialogin {
+  padding-left: 50px;
+}
+
+#socmedialogin .socmediashape1 {
+  background-color: #3b5998;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px 0 0 10px;
+  font-family: 'Roboto';
+}
+
+#socmedialogin .socmediashape2 {
+  background-color: #DB4437;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px 0 0 10px;
+  font-family: 'Roboto';
+}
+
+#socmedialogin .socmediashape3 {
+  background-color: #1DA1F2;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px 0 0 10px;
+  font-family: 'Roboto';
+}
+
+#register {
+  background-color: #F3F2F2;
+  padding: 30px;
+  box-shadow: 5px 5px #cccccc;
+  border-radius: 12px;
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 50px;
+}
+
+#register .btn {
+  color: #000000;
+  border-color: #000000;
+}
+
+#register .btn:hover {
+  background-color: transparent;
+  font-weight: 600;
+}

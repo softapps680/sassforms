@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+
+
+
+
+
+
+
+#login{
+    @include formbg(150px,50%);
+    @include generalBtn();
+}    
+
+#socmedialogin{
+   padding-left: 50px;
+   @include socialmediaLogin();
+}
+
+#register{
+    @include formbg(50px,600px);
+    @include generalBtn();
+}

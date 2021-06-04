@@ -1,0 +1,27 @@
+body{
+    font-family: $poppins; 
+        a, .lbl{ 
+        font-size: small;
+        color: $header;
+        font-weight:map-get($font-weights, "regular");
+        }
+        h1{
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 40px;
+            color:$header;
+        }
+        h5 {
+            font-size: 14px;
+            text-align: center;
+            margin-top: -20px;
+         }
+        .error{
+            font-size: 11px;
+            color: $error;
+        }
+        .correct{
+            font-size: 11px;
+            color: $correct;
+        }
+}

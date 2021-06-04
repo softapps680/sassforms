@@ -1,0 +1,38 @@
+@mixin formbg ($mt,$width){
+    background-color: $form_bg;
+    padding: 30px;
+    box-shadow: 5px 5px $form_shadow;
+    border-radius: 12px;
+    margin: 0 auto;
+    width: $width;
+    margin-top: $mt;
+}
+
+@mixin socialmediaLogin(){
+    
+    @each $color in $socialmedia_colors {
+        
+        $i: index($socialmedia_colors, $color);
+      
+        .socmediashape#{$i} {
+          background-color: $color;
+          color:#fff;
+          width:200px;
+          height:40px;
+          border-radius: 12px;
+          padding:10px 0 0 10px;
+          font-family: 'Roboto';
+        }
+      }
+   
+}
+
+@mixin generalBtn(){
+    .btn{color:$btn;
+        border-color:$btn;
+        &:hover{
+        background-color: transparent;
+        font-weight:map-get($font-weights, "bold");
+        }
+    }
+}
